@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback  feecback feecbackfeecback feecbackfeecbackfeecback feecback.",
+        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback",
     },
     {
       img: profilePic2,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback  feecback feecbackfeecback feecbackfeecbackfeecback feecback.",
+        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback.",
     },
     {
       img: profilePic3,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback  feecback feecbackfeecback feecbackfeecbackfeecback feecback.",
+        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackf",
     },
     {
       img: profilePic4,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback  feecback feecbackfeecback feecbackfeecbackfeecback feecback.",
+        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfee",
     },
   ];
 
