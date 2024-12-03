@@ -28,14 +28,14 @@ const Works = () => {
           </span>
           <span>podcast's e palestras!</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            feecback feecbackfeecback feecback feecback feecback
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
+           feecback feecbackfeecback feecback feecback feecback
             text
             <br />
-            y dummy text of printingLorem
+            feecback feecbackfeecback 
             <br />
-            ispum is simpley dummy text of printing
+            feecback feecbackfeecback feecback 
           </spane>
           <div
             className="blur s-blur1"
