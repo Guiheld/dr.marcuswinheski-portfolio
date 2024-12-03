@@ -25,12 +25,12 @@ const navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="works" spy={true} smooth={true}>
+              <Link to="experience" spy={true} smooth={true}>
                 Experiência
               </Link>
             </li>
             <li>
-              <Link to="portfolio" spy={true} smooth={true}>
+              <Link to="works" spy={true} smooth={true}>
                 Protfolio
               </Link>
             </li>
@@ -41,9 +41,9 @@ const navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
-        </Link>
+        <a href="https://api.whatsapp.com/send?phone=5541991640506&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Marcus!%20:)" target="_blank" rel="noopener noreferrer">
+            <button className="button n-button">Contato</button>
+          </a>
       </div>
     </div>
   );
