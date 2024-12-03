@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback",
+        "feecback feecbackfeecback feecback feecback feecback",
     },
     {
       img: profilePic2,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecback.",
+        "feecback feecbackfeecback feecback feecback.",
     },
     {
       img: profilePic3,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackf",
+        "feecback feecbackfeecback feecback feecback f",
     },
     {
       img: profilePic4,
       review:
-        "feecback feecbackfeecback feecback feecback feecback feecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfeecbackfee",
+        "feecback feecbackfeecback feecbacke",
     },
   ];
 
