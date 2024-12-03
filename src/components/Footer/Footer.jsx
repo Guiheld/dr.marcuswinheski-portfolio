@@ -3,18 +3,24 @@ import "./Footer.css";
 import Wave from "../../img/wave.png";
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import Whatsapp from "@iconscout/react-unicons/icons/uil-whatsapp";
 
 const Footer = () => {
   return (
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        <span>Zainkeepscode@gmail.com</span>
+        <span>drmarcuswinheski@gmail.com</span>
         <div className="f-icons">
-          <Insta color="white" size={"3rem"} />
-          <Facebook color="white" size={"3rem"} />
-          <Gitub color="white" size={"3rem"} />
+        <a href="https://www.instagram.com/dr.marcuswinheski/" target="_blank" rel="noopener noreferrer">
+            <Insta color="white" size={"3rem"} />
+          </a>
+          <a href="https://www.facebook.com/drmarcusrivabemwinheski/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
+            <Facebook color="white" size={"3rem"} />
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5541991640506&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Marcus!%20:)" target="_blank" rel="noopener noreferrer">
+            <Whatsapp color="white" size={"3rem"} />
+          </a>
         </div>
       </div>
     </div>

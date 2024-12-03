@@ -1,7 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
+import PresentacaoIcone from "@iconscout/react-unicons/icons/uil-presentation-play";
+import MicrofoneIcone from "@iconscout/react-unicons/icons/uil-microphone";
+import ApresentacaoPlayIcone from "@iconscout/react-unicons/icons/uil-youtube";
+import CameraIcon from "@iconscout/react-unicons/icons/uil-camera";
+import Instagram from "@iconscout/react-unicons/icons/uil-instagram";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
@@ -21,9 +24,9 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Me acompanhe em 
           </span>
-          <span>Brands & Clients</span>
+          <span>podcast's e palestras!</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
@@ -34,9 +37,6 @@ const Works = () => {
             <br />
             ispum is simpley dummy text of printing
           </spane>
-          <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
-          </Link>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
@@ -54,19 +54,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <PresentacaoIcone color="black" size="3rem" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <MicrofoneIcone color="black" size="3rem" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <ApresentacaoPlayIcone color="black" size="3rem" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <CameraIcon color="black" size="3rem" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <Instagram color="black" size="3rem" />
           </div>
         </motion.div>
         {/* background Circles */}
