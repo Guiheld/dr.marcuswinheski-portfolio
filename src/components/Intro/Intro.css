@@ -3,8 +3,11 @@
 .Intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
+  /* Remover o margin-top para que a imagem encoste na navbar */
+  margin-top: 0;
 }
+
+/* Restante do código permanece inalterado */
 
 /* Left side styling */
 .i-left {
@@ -81,8 +84,6 @@
   z-index: 1;
 }
 
-
-
 /* Descrição abaixo da imagem */
 .description-text {
   display: none; /* Oculto por padrão */
@@ -153,7 +154,7 @@
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
-    margin-top: 50px; /* Espaçamento de 50px no topo */
+    margin-top: 50px; /* Espaçamento de 50px no topo (pode ajustar conforme necessário) */
     align-items: center;
   }
 
@@ -196,7 +197,6 @@
     font-size: 1.2rem;
     color: var(--black);
     text-align: center;
-    /* Sem background */
   }
 
   .description-text strong {
@@ -228,4 +228,3 @@
     display: none;
   }
 }
-

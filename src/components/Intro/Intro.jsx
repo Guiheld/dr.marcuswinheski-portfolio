@@ -27,7 +27,7 @@ const Intro = () => {
           </span>
           <span className="doctor-name">Doutor Marcus Winheski</span>
         </div>
-        <Link to="experience" smooth={true} spy={true}>
+        <Link to="services" smooth={true} spy={true}>
           <button className="button i-button">Ver mais</button>
         </Link>
         <div className="i-icons">
