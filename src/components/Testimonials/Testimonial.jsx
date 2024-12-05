@@ -15,34 +15,29 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "feecback feecbackfeecback feecback feecback feecback",
+        "“A atenção e o cuidado que recebi foram excepcionais. O Dr. Marcus me explicou cada etapa do tratamento, tornando tudo mais tranquilo e seguro.”",
     },
     {
       img: profilePic2,
       review:
-        "feecback feecbackfeecback feecback feecback.",
+        "“Equipe extremamente dedicada. Senti-me acolhido e confiante desde a primeira consulta até a recuperação completa.”",
     },
     {
       img: profilePic3,
       review:
-        "feecback feecbackfeecback feecback feecback f",
+        "“O Dr. Marcus demonstrou grande conhecimento e sensibilidade ao lidar com meu caso. Sou muito grato pelo profissionalismo e empatia.”",
     },
     {
       img: profilePic4,
       review:
-        "feecback feecbackfeecback feecbacke",
+        "“Fui tratada com respeito, paciência e competência. Recomendo a todos que buscam um cuidado oncológico humanizado.”",
     },
   ];
 
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Veja depoimento de pacientes </span>
-        <span></span>
-        <span></span>
-      
-      
-
+        <span>Veja depoimento de pacientes</span>
       </div>
       <Swiper
         // install Swiper modules

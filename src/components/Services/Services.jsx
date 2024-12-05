@@ -6,7 +6,6 @@ import Glasses from "../../img/oncologia 1.png";
 import Humble from "../../img/oncologia 1.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
 
 const Services = () => {
   // context
@@ -27,9 +26,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>Com tratamento</span>
         <span>100% personalizado</span>
         <span>
-          Especialista em tratar o paciente com o maior cuidado
+          Especialista em cuidar do paciente com atenção integral,
           <br />
-          fazendo com que sua saúde prevaleça.
+          priorizando conforto, segurança e resultados efetivos.
         </span>
         
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -45,7 +44,9 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Câncer de mama"}
-            detail={"TEXTO, TEXTO, TEXTO, TEXTO TEXTO, TEXTO TEXTO"}
+            detail={
+              "Diagnóstico preciso, cuidados personalizados e abordagens modernas para assegurar o melhor tratamento."
+            }
           />
         </motion.div>
         {/* second card */}
@@ -57,7 +58,9 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Câncer de próstata"}
-            detail={"TEXTO, TEXTO, TEXTO, TEXTO, TEXTO, TEXTO, TEXTO"}
+            detail={
+              "Prevenção, rastreamento e terapias avançadas com foco na qualidade de vida do paciente."
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -70,7 +73,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Câncer de pele"}
             detail={
-              "TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO "
+              "Identificação precoce e tratamentos eficazes, mantendo a saúde e a proteção da pele."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

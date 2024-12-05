@@ -17,6 +17,10 @@ const Intro = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
+  // Mensagem padrão para o WhatsApp (codificada)
+  const whatsappMessage = encodeURIComponent("Olá, gostaria de agendar uma consulta com o Dr. Marcus! :)");
+  const whatsappLink = `https://wa.me/5541991640506?text=${whatsappMessage}`;
+
   return (
     <div className="Intro" id="Intro">
       {/* Left side (hidden on small screens) */}
@@ -31,7 +35,7 @@ const Intro = () => {
           <button className="button i-button">Ver mais</button>
         </Link>
         <div className="i-icons">
-          <a href="https://wa.me/seunumerodowhatsapp" target="_blank" rel="noopener noreferrer">
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
             <img src={WhatsImg} alt="WhatsApp" className="i-icon" />
           </a>
           <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer">
@@ -59,10 +63,10 @@ const Intro = () => {
 
         {/* Ícones abaixo da descrição (versão mobile) */}
         <div className="i-icons-mobile">
-          <a href="https://wa.me/seunumerodowhatsapp" target="_blank" rel="noopener noreferrer">
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
             <img src={WhatsImg} alt="WhatsApp" className="i-icon-mobile" />
           </a>
-          <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://instagram.com/dr.marcuswinheski" target="_blank" rel="noopener noreferrer">
             <img src={InstagramImg} alt="Instagram" className="i-icon-mobile" />
           </a>
         </div>
