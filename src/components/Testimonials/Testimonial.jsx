@@ -41,7 +41,7 @@ const Testimonial = () => {
         <span></span>
         <span></span>
       
-      <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
+      
 
       </div>
       <Swiper
