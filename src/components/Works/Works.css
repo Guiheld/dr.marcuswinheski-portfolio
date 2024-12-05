@@ -2,7 +2,7 @@
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 90vh;
-  margin-top: 4rem;
+  margin-top: 0rem;
 
   /* scroll */
   align-items: center;
@@ -107,7 +107,7 @@
   top: 0rem;
 }
 .yellowCircle {
-  background: #f5c32c;
+  background: #4979e8;
   left: 18rem;
   top: 8rem;
 }

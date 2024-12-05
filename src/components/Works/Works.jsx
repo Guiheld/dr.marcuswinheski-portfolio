@@ -24,18 +24,17 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Me acompanhe em 
+            Conheça o Dr. Marcus Winheski
           </span>
-          <span>podcast's e palestras!</span>
+          <span></span>
           <spane>
-            feecback feecbackfeecback feecback feecback feecback
+            Formado em faculdade de medicina em 2000 e residente
             <br />
-           feecback feecbackfeecback feecback feecback feecback
-            text
+              de tratamento especializado em câncer, entusiasta por
             <br />
-            feecback feecbackfeecback 
+              podcast e apresentar e mostrar meu trabalho as pessoas 
             <br />
-            feecback feecbackfeecback feecback 
+              sempre apresentando conhecimento ao mundo! 
           </spane>
           <div
             className="blur s-blur1"

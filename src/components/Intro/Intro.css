@@ -1,3 +1,5 @@
+/* intro.css */
+
 .Intro {
   display: flex;
   height: 77vh;
@@ -79,12 +81,15 @@
   z-index: 1;
 }
 
+
+
 /* Descrição abaixo da imagem */
 .description-text {
   display: none; /* Oculto por padrão */
   margin-top: 1rem;
   text-align: center;
   font-size: 1.2rem;
+  font-weight: bold;
   color: var(--black);
 }
 
@@ -129,7 +134,7 @@
   width: 22rem;
   height: 14rem;
   border-radius: 50%;
-  background: #edd0ff;
+  background: #C1F5FF;
   filter: blur(72px);
   z-index: -9;
   top: -18%;
@@ -148,7 +153,7 @@
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
-    margin-top: 100px; /* Espaçamento de 100px no topo */
+    margin-top: 50px; /* Espaçamento de 50px no topo */
     align-items: center;
   }
 
@@ -200,14 +205,15 @@
     margin-bottom: 0.5rem;
   }
 
-  /* Espaçamento */
+  /* Espaçamento reduzido para telas menores */
   .spacing {
-    height: 50px;
+    height: 20px; /* Reduzido de 50px para 20px */
   }
 
   /* Ícones abaixo da descrição */
   .i-icons-mobile {
     display: flex;
+    margin-top: 0.5rem; /* Adicionado para ajustar a distância */
   }
 
   /* Ocultar gradientes originais */
@@ -222,3 +228,4 @@
     display: none;
   }
 }
+

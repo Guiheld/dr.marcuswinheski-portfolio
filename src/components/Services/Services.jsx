@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import HeartEmoji from "../../img/oncologia 1.png";
+import Glasses from "../../img/oncologia 1.png";
+import Humble from "../../img/oncologia 1.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -24,13 +24,13 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Minhas</span>
-        <span>Especialidades</span>
-        <spane>
+        <span style={{ color: darkMode ? "white" : "" }}>Com tratamento</span>
+        <span>100% personalizado</span>
+        <span>
           Especialista em tratar o paciente com o maior cuidado
           <br />
           fazendo com que sua saúde prevaleça.
-        </spane>
+        </span>
         
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -44,7 +44,7 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Cirurgias"}
+            heading={"Câncer de mama"}
             detail={"TEXTO, TEXTO, TEXTO, TEXTO TEXTO, TEXTO TEXTO"}
           />
         </motion.div>
@@ -56,8 +56,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Prevenças"}
-            detail={"TEXTO, TEXTO, TEXTO, TEXTO, TEXTO, TEXTO"}
+            heading={"Câncer de próstata"}
+            detail={"TEXTO, TEXTO, TEXTO, TEXTO, TEXTO, TEXTO, TEXTO"}
           />
         </motion.div>
         {/* 3rd */}
@@ -68,7 +68,7 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"Oncologia"}
+            heading={"Câncer de pele"}
             detail={
               "TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO "
             }

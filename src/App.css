@@ -1,7 +1,7 @@
 :root
 {
-  --yellow: #F5C32C;
-    --orange : #FCA61F;
+  --yellow: #708DC4;
+    --orange : #708DC4;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
@@ -18,8 +18,8 @@
 }
 
 .button {
-    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
-    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42);
+    background: linear-gradient(180deg, #708DC4 26.71%, #92b1ec 99.36%);
+    box-shadow: 0px 20px 24px 3px #cad9f4;
     border-radius: 34px;
     border: none;
     color: white;

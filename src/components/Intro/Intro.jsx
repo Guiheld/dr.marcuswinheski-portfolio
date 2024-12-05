@@ -1,11 +1,13 @@
+// Intro.jsx
+
 import React, { useContext } from "react";
 import "./Intro.css";
 import Marcus from "../../img/marcus com fundo.jpeg";
-import Instagram from "@iconscout/react-unicons/icons/uil-instagram";
+import InstagramImg from "../../img/instagram-1-svgrepo-com 1.svg";
+import WhatsImg from "../../img/whatsapp-symbol-logo-svgrepo-com 1.svg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import Whats from "@iconscout/react-unicons/icons/uil-whatsapp";
 
 const Intro = () => {
   // Transition
@@ -29,8 +31,12 @@ const Intro = () => {
           <button className="button i-button">Ver mais</button>
         </Link>
         <div className="i-icons">
-          <Whats color="#FCA61F" size={"5rem"} />
-          <Instagram color="#FCA61F" size={"5rem"} />
+          <a href="https://wa.me/seunumerodowhatsapp" target="_blank" rel="noopener noreferrer">
+            <img src={WhatsImg} alt="WhatsApp" className="i-icon" />
+          </a>
+          <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer">
+            <img src={InstagramImg} alt="Instagram" className="i-icon" />
+          </a>
         </div>
       </div>
 
@@ -48,13 +54,17 @@ const Intro = () => {
           <p>Médico especialista em Cirurgia do Câncer, Prevenção e Tratamento Oncológico</p>
         </div>
 
-        {/* Espaçamento de 50px */}
+        {/* Espaçamento de 20px para telas menores */}
         <div className="spacing"></div>
 
-        {/* Ícones abaixo da descrição */}
+        {/* Ícones abaixo da descrição (versão mobile) */}
         <div className="i-icons-mobile">
-          <Whats color="#FCA61F" size={"3rem"} />
-          <Instagram color="#FCA61F" size={"3rem"} />
+          <a href="https://wa.me/seunumerodowhatsapp" target="_blank" rel="noopener noreferrer">
+            <img src={WhatsImg} alt="WhatsApp" className="i-icon-mobile" />
+          </a>
+          <a href="https://instagram.com/seuusuario" target="_blank" rel="noopener noreferrer">
+            <img src={InstagramImg} alt="Instagram" className="i-icon-mobile" />
+          </a>
         </div>
 
         {/* Animações (opcional) */}
