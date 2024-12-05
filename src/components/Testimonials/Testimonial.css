@@ -43,7 +43,7 @@
     height: 12rem;
     /* styles same as work.css */
     background: rgba(255, 255, 255, 0.26);
-    border: 7px solid var(--blueCard);
+    border: 7px solid var(--gray);
     box-shadow: var(--boxShadow);
     border-radius: 20px;
 }
