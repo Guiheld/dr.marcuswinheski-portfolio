@@ -1,27 +1,31 @@
+// Footer.jsx
 import React from "react";
 import "./Footer.css";
-import Wave from "../../img/wave 1.png";
-import Insta from "@iconscout/react-unicons/icons/uil-instagram";
-import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
-import Whatsapp from "@iconscout/react-unicons/icons/uil-whatsapp";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <img src={Wave} alt="" style={{ width: "100%" }} />
+    <div className="footer" id="footer">
       <div className="f-content">
-        <span>drmarcuswinheski@gmail.com</span>
-        <div className="f-icons">
-        <a href="https://www.instagram.com/dr.marcuswinheski/" target="_blank" rel="noopener noreferrer">
-            <Insta color="black" size={"3rem"} />
-          </a>
-          <a href="https://www.facebook.com/drmarcusrivabemwinheski/?locale=pt_BR" target="_blank" rel="noopener noreferrer">
-            <Facebook color="black" size={"3rem"} />
-          </a>
-          <a href="https://api.whatsapp.com/send?phone=5541991640506&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Marcus!%20:)" target="_blank" rel="noopener noreferrer">
-            <Whatsapp color="black" size={"3rem"} />
-          </a>
+        <h3>Localização</h3>
+        <div className="f-location">
+          <FaMapMarkerAlt className="f-icon" />
+          <span>R. Xavier da Silva, 1591 | Campo Largo | PR</span>
         </div>
+        <p>
+          Atendimento de Segunda a Sexta, das 7:30 às 18:30h
+          <br />
+          <a 
+            href="https://www.cedaccampolargo.com.br" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="f-link"
+          >
+            www.cedaccampolargo.com.br
+          </a>
+          <br />
+          41. 3393.3830 | 41. 99164.0506
+        </p>
       </div>
     </div>
   );

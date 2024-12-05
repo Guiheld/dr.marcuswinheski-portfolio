@@ -1,28 +1,79 @@
+/* Footer.css */
+
 .footer {
-  display: flex;
-  align-items: center;
-  margin: -0.5rem -3.5rem;
-  position: relative;
-  margin-top: -7rem;
+  width: 100%;
+  padding: 2rem;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
 }
+
 .f-content {
-  position: absolute;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.5;
+  padding: 0 1rem; /* Adicionei padding horizontal para telas menores */
+}
+
+.f-content h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.f-location {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  margin-top: 4rem;
-  gap: 4rem;
-  color: black;
-}
-.f-icons {
-  display: flex;
-  gap: 2rem;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap; /* Permite quebrar linha em telas menores */
 }
 
-@media screen and (max-width: 480px){
-  .f-content{
-    transform: scale(.5);
+.f-icon {
+  color: #ff6600;
+  font-size: 1.2rem;
+}
+
+.f-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0;
+  word-wrap: break-word; /* Permite quebra de texto se necessário */
+  white-space: normal;   /* Garante quebra em telas pequenas */
+}
+
+.f-link {
+  display: inline-block;
+  color: #ff6600;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  word-wrap: break-word; /* Ajuda na quebra do link em telas menores */
+}
+
+.f-link:hover {
+  text-decoration: underline;
+}
+
+/* Ajustes responsivos para telas pequenas */
+@media screen and (max-width: 480px) {
+  .f-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .f-content p {
+    font-size: 0.9rem;
+  }
+
+  .f-link {
+    font-size: 0.9rem;
+  }
+
+  .f-location {
+    flex-direction: column; /* Empilha o ícone e o endereço */
+    text-align: center;
   }
 }
