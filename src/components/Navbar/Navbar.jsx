@@ -54,16 +54,6 @@ const Navbar = () => {
             </li>
             <li>
               <Link 
-                to="works" 
-                spy={true} 
-                smooth={true}
-                aria-label="Navegar para Protfolio"
-              >
-                Protfolio
-              </Link>
-            </li>
-            <li>
-              <Link 
                 to="testimonial" 
                 spy={true} 
                 smooth={true}

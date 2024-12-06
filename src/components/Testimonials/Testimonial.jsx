@@ -37,7 +37,7 @@ const Testimonial = () => {
   return (
     <div className="t-wrapper" id="testimonial">
       <div className="t-heading">
-        <span>Veja depoimento de pacientes</span>
+        <span>Veja os depoimentos dos pacientes</span>
       </div>
       <Swiper
         // install Swiper modules

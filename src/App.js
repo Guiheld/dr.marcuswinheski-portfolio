@@ -3,7 +3,6 @@ import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import "./App.css";
 import Experience from "./components/Experience/Experience";
-import Works from "./components/Works/Works";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
@@ -20,11 +19,9 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Navbar />
       <Intro />
       <Services />
       <Experience />
-      <Works />
       <Testimonial />
       <Footer />
     </div>
