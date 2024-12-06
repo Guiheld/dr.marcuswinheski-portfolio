@@ -43,9 +43,8 @@
 }
 
 .i-icons {
-  margin-top: 3rem;
   display: flex;
-  gap: 0rem;
+  gap: 1rem; /* Espaçamento entre ícones */
 }
 
 .i-icons > * {
@@ -227,4 +226,28 @@
   .floating-div {
     display: none;
   }
+}
+
+.link-icon {
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+  color: #000; /* Cor do texto */
+  margin: 0; /* Remove margem */
+  padding: 0;
+}
+
+
+.link-icon:hover {
+  color: #25D366; /* Cor do texto ao passar o mouse */
+}
+
+.link-icon svg {
+  width: 80px;
+  height: 80px;
+  fill: var(--black);
+}
+
+.link-icon:hover svg {
+  fill: #000; /* Mantém cor preta ao passar o mouse */
 }
