@@ -1,5 +1,3 @@
-// Intro.jsx
-
 import React, { useContext } from "react";
 import "./Intro.css";
 import Marcus from "../../img/marcus com fundo.jpeg";

@@ -44,34 +44,7 @@ const Works = () => {
 
         {/* right side */}
       </div>
-      <div className="w-right">
-        <motion.div
-          initial={{ rotate: 45 }}
-          whileInView={{ rotate: 0 }}
-          viewport={{ margin: "-40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
-          className="w-mainCircle"
-        >
-          <div className="w-secCircle">
-            <PresentacaoIcone color="black" size="3rem" />
-          </div>
-          <div className="w-secCircle">
-            <MicrofoneIcone color="black" size="3rem" />
-          </div>
-          <div className="w-secCircle">
-            <ApresentacaoPlayIcone color="black" size="3rem" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <CameraIcon color="black" size="3rem" />
-          </div>
-          <div className="w-secCircle">
-            <Instagram color="black" size="3rem" />
-          </div>
-        </motion.div>
-        {/* background Circles */}
-        <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div>
-      </div>
+     
     </div>
   );
 };

@@ -23,8 +23,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>Com tratamento</span>
-        <span>100% personalizado</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Saiba mais</span>
+        <span></span>
         <span>
           Especialista em cuidar do paciente com atenção integral,
           <br />
